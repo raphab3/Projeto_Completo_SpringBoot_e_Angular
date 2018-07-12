@@ -4,11 +4,13 @@ import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.algaworks.vendas.model.Venda;
 import com.algaworks.vendas.repository.Produtos;
 import com.algaworks.vendas.repository.Vendas;
 
+@Service
 public class VendaService {
 	
 	@Autowired

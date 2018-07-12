@@ -17,6 +17,7 @@ public class Item {
 	@ManyToOne
 	private Venda venda;
 	
+	@ManyToOne
 	@NotNull
 	private Produto produto;
 	
